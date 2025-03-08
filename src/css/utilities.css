@@ -1,0 +1,45 @@
+/* === Utility Classes === */
+
+/* Spacing */
+.m-0 { margin: 0; }
+.p-0 { padding: 0; }
+.m-auto { margin: auto; }
+.p-10 { padding: 10px; }
+
+/* Flexbox */
+.flex { display: flex; }
+.flex-center { display: flex; justify-content: center; align-items: center; }
+.flex-between { display: flex; justify-content: space-between; }
+.flex-column { display: flex; flex-direction: column; }
+
+/* Text */
+.text-center { text-align: center; }
+.text-uppercase { text-transform: uppercase; }
+.text-bold { font-weight: bold; }
+
+/* Colors */
+.text-primary { color: #007bff; }
+.bg-light { background-color: #f8f9fa; }
+.bg-dark { background-color: #343a40; color: white; }
+
+/* Borders */
+.border { border: 1px solid #ddd; }
+.rounded { border-radius: 5px; }
+.shadow { box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
+
+/* Width & Height */
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-primary { background: #007bff; color: white; }
+.btn-primary:hover { background: #0056b3; }
