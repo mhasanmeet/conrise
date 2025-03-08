@@ -133,3 +133,21 @@ body{
 .product_price{
     font-size: 13px;
 }
+
+/* Club */
+.club_container{
+    background-color: #F8F8F8;
+}
+
+.club .btn{
+    font-size: 13px;
+}
+
+.club_img img{
+    margin-left: 12px;
+}
+
+/* SEO Content */
+.seoContent_text{
+    font-size: 14px;
+}
