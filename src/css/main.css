@@ -151,3 +151,8 @@ body{
 .seoContent_text{
     font-size: 14px;
 }
+
+/* Footer */
+footer{
+    background-color: #FBFBFB;
+}
