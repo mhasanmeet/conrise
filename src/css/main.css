@@ -97,7 +97,7 @@ body{
     justify-content: center;
 }
 
-/* reviews */
+/* Home Page -- reviews */
 .reviews{
     background-color: #FAFAFA;
 }
@@ -129,12 +129,12 @@ body{
     font-size: 12px;
 }
 
-/* Popular Products */
+/* Home Page -- Popular Products */
 .product_price{
     font-size: 13px;
 }
 
-/* Club */
+/* Home Page -- Club */
 .club_container{
     background-color: #F8F8F8;
 }
@@ -147,10 +147,22 @@ body{
     margin-left: 12px;
 }
 
-/* SEO Content */
+/* Home Page -- SEO Content */
 .seoContent_text{
     font-size: 14px;
 }
+
+/* Category Page -- category */
+.category_lists img{
+    background-color: #f2f2f2;
+    padding: 18px;
+    border-radius: 50%;
+}
+
+.category_lists h2{
+    font-size: 15px;
+}
+
 
 /* Footer */
 footer{
