@@ -81,6 +81,11 @@ body{
     font-size: 13px;
 }
 
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+
 /* Loved By */
 .lovedby_pic {
     margin-left: -5px;
