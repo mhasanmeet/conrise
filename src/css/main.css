@@ -166,8 +166,48 @@ body{
 
 .category_lists h2{
     font-size: 15px;
+    top: 10px;
+    left: 10px;
 }
 
+/* Cart Section */
+.cart_sale{
+    font-size: 12px;
+}
+
+.cart_price-original{
+    font-size: 17px;
+    color: #B4B4B4;
+}
+
+.cart_price-discount-tag-area{
+    padding: 1px 8px;
+}
+
+.cart_price-discount-tag{
+    font-size: 12px;
+}
+
+.cart_price-return{
+    font-size: 10px;
+    color: #B4B4B4;
+}
+
+.cart_characte-txt{
+    font-size: 14px;
+}
+
+.colorSwatches_subtitle{
+    font-size: 14px;
+}
+
+.colorSwatches_btn p{
+    font-size: 12px;
+}
+
+.logistics_title{
+    font-size: 14px;
+}
 
 /* Footer */
 footer{
