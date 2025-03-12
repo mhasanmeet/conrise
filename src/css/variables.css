@@ -1,3 +1,29 @@
 /*
     Variable CSS
 */
+
+@media (max-width: 991.98px) {
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .navbar-toggler{
+        order: 1;
+    }
+
+    .navbar-brand{
+        order: 2;
+        margin-inline: auto;
+    }
+
+    .cart-search{
+        order: 3;
+    }
+
+    .navbar-desktop{
+        display: none;
+    }
+}

@@ -31,6 +31,10 @@
     font-display: swap;
 }
 
+* {
+    margin-bottom: 0 !important;
+}
+
 body{
     font-family: 'Source Sans 3', sans-serif;
 }
@@ -207,6 +211,19 @@ body{
 
 .logistics_title{
     font-size: 14px;
+}
+
+/* Define the animation */
+@keyframes glow-animation {
+    0% {
+        box-shadow: 0 0 5px rgba(64, 155, 7, 0.5);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(64, 155, 7, 1);
+    }
+    100% {
+        box-shadow: 0 0 5px rgba(64, 155, 7, 0.5);
+    }
 }
 
 /* Footer */
