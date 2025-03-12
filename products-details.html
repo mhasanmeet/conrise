@@ -201,6 +201,135 @@
                     </button>
                 </div>
             </div>
+
+            <!-- Search Area -->
+            <form class="" role="search">
+                <div class="d-flex offcanvas-nav-search align-items-center mx-4 p-2 px-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-search fw-bold" viewBox="0 0 16 16" style="color: #9A9A9A">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                    </svg>
+    
+                    <div class="form-control offcanvas-search-input me-2 border-0 shadow-none">
+                        <input class="" type="search" placeholder="Search for a product" aria-label="Search">
+                    </div>
+                </div>
+            </form>
+
+            <!-- Search result -->
+            <div class="p-3 border-bottom" id="searchResults">
+                <ul class="list-group" id="resultsList">
+                    <!-- result lists -->
+                </ul>
+            </div>
+
+            <!-- nav content -->
+            <div class="mx-2 p-3 px-3">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 d-flex gap-3">
+                    <li class="nav-item nav-link active fw-bold border-bottom">
+                        <a class="" aria-current="page" href="#">Home</a>
+                    </li>
+                    
+                    <li class="nav-item dropdown border-bottom">
+                        <div class="nav-link dropdown-toggle fw-bold" role="button">
+                            <a class="" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                                Bestseller
+                            </a>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Adapt Muscle Shirt</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Heritage Silver Steel</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Long Knit Coat</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Lady Square Lenses</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown border-bottom">
+                        <div class="nav-link dropdown-toggle fw-bold" role="button">
+                            <a class="" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                                Categories
+                            </a>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Women's Clothing</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Men's Clothing</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Watch</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Sunglasses</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown border-bottom">
+                        <div class="nav-link dropdown-toggle fw-bold" role="button">
+                            <a class="" href="#"  data-bs-toggle="dropdown" aria-expanded="false">
+                                conrise
+                            </a>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Home</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dropdown-item">
+                                    <a class="" href="#">Free Download</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="offcanvas-nav-p mx-2 px-3">
+                <p>
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.
+                </p>
+            </div>
+
+            <!-- social Media -->
+            <div class="offcanvas-nav-social-content d-flex justify-content-center gap-3">
+                <div class="offcanvas-nav-social">
+                    <img src="src/assets/images/social_tiktoc.svg" alt="">
+                </div>
+                <div class="offcanvas-nav-social">
+                    <img src="src/assets/images/social_instagram.svg" alt="">
+                </div>
+                <div class="offcanvas-nav-social">
+                    <img src="src/assets/images/social_youtube.svg" alt="">
+                </div>
+            </div>
         </div>
 
         <!-- Off Canvas Search Area -->
@@ -222,15 +351,14 @@
                         </svg>
                     </button>
                 </div>
-                
             </form>
 
             <!-- Search result -->
-             <div class="p-3" id="searchResults">
-                <ul class="list-group" id="resultsList">
-                    <!-- result lists -->
-                </ul>
-             </div>
+            <div class="p-3" id="searchResults">
+            <ul class="list-group" id="resultsList">
+                <!-- result lists -->
+            </ul>
+            </div>
         </div>
 
         <!-- Off Canvas Cart Area -->
