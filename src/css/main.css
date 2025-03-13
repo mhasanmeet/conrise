@@ -383,6 +383,38 @@ body{
     padding: 0 10rem !important;
 }
 
+/* Review Cards */
+.review-cards .card{
+    background-color: #FCFCFC;
+}
+
+.review-verified-text{
+    font-size: 14px;
+    color: #B4B4B4;
+}
+
+.review-card-title h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.review-subtitle p{
+    font-size: 14px;
+}
+
+.review-cards-bottom{
+   background-color: #F8F8F8; 
+}
+
+.review-cards-bottom p{
+    font-size: 13px;
+}
+
+.review-cards-bottom p span{
+    font-weight: bold;
+    color: #716e6e;
+}
+
 /*-------------- Cart Section ---------------*/
 .cart_sale{
     font-size: 12px;
@@ -420,6 +452,18 @@ body{
 
 .logistics_title{
     font-size: 14px;
+}
+
+/* ------------- SEO Content */
+.seoContent-title h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.seoContent-text p{
+    font-size: 14px;
+    color: #716e6e;
+    margin-top: .5rem;
 }
 
 /*-------------- Footer ---------------*/
