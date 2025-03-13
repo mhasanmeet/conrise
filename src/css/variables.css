@@ -1,13 +1,11 @@
 /*
     Variable CSS
 */
-
 @media (max-width: 991.98px) {
     .navbar {
         display: flex;
         align-items: center;
         justify-content: space-between;
-
     }
 
     .navbar-toggler{
