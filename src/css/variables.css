@@ -1,6 +1,8 @@
 /*
     Variable CSS
 */
+
+/* ----------Navbar------------- */
 @media (max-width: 991.98px) {
     .navbar {
         display: flex;
@@ -23,5 +25,26 @@
 
     .navbar-desktop{
         display: none;
+    }
+}
+
+/* -------- footer bottom -------- */
+@media (min-width: 768px) {
+    .copyright-text{
+        text-align: center;
+    }
+
+    .payment-cards{
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .social-media,
+    .copyright-text,
+    .payment-cards{
+        text-align: center;
+        margin-top: 10px;
     }
 }

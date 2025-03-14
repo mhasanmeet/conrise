@@ -471,7 +471,7 @@ footer{
     background-color: #FBFBFB;
 }
 
-.footer_bottom{
+.footer-bottom{
     background-color: #F5F5F5;
 }
 
@@ -514,4 +514,12 @@ footer{
 
 .form-policy p span{
     font-style: italic;
+}
+
+.copyright-text{
+    font-size: 14px;
+}
+
+.copyright-text span{
+    font-weight: bold;
 }
