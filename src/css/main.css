@@ -466,6 +466,59 @@ body{
     margin-top: .5rem;
 }
 
+/*------ Product Details: Happy Customer ----------*/
+.happyCustomer{
+    background-color: #FAFAFA;
+}
+
+.happyCustomer-title h3{
+    font-size: 17px;
+}
+
+.happyCustomer-title h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.videos video{
+    border-radius: .4rem;
+}
+
+/* -------Products Details: Be Yourself------- */
+.beYourself img{
+    border-radius: .3rem;
+} 
+
+.beYourself h3{
+    font-size: 20px;
+    color: #716e6e;
+}
+
+.beYourself h1{
+    font-size: 45px;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.beYourself h4{
+    margin-top: 2rem;
+    font-size: 17px;
+    color: #716e6e;
+    font-weight: bold;
+}
+
+.beYourself .lists{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.beYourself .lists p{
+    font-size: 15px;
+    color: #716e6e;
+}
+
 /*-------------- Footer ---------------*/
 footer{
     background-color: #FBFBFB;

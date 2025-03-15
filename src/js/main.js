@@ -8,4 +8,4 @@ document.querySelectorAll(".colorSwatchesBtn").forEach(button => {
 });
 
 // Footer
-document.getElementById("copyrightYear").textContent = new Date().getFullYear();
+// document.getElementById("copyrightYear").textContent = new Date().getFullYear();
