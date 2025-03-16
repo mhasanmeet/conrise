@@ -68,14 +68,203 @@ body{
     outline: none;
 }
 
+/* ------------------Offcanvas Cart ------------ */
+.offcanvas-cart{
+    height: 100%;
+    overflow: auto;
+}
+
+.sticky-top,
+.sticky-bottom{
+    background-color: white;
+    z-index: 1;
+}
+
 .offcanvas-cart .title-header h2{
     font-size: 20px;
     font-weight: bold;
 }
 
-.cart_content h2{
+.cart-content h2{
     font-size: 18px;
     font-weight: bold;
+}
+
+.good-choice{
+    background-color: #EBFCE9;
+    color: #007600;
+    border-radius: 5px;
+} 
+
+.good-choice p{
+    font-size: 14px;
+    line-height: 20px;
+} 
+
+.good-choice span{
+    font-weight: 600;
+}
+
+.offcanvas-cart-product img,
+.offcanvas-cart-xtra-buy img{
+    width: 7rem;
+    border-radius: .2rem;
+}
+
+.offcanvas-cart-product h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.offcanvas-cart-product h3{
+    font-size: 14px;
+}
+
+.offcanvas-cart-product h3 span{
+    color: #B4B4B4;
+}
+
+.offcanvas-cart-product p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.offcanvas-cart-product p span{
+    color: #B4B4B4;
+    text-decoration: line-through;
+    font-size: 14px;
+}
+
+.cart-qty-area{
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.cart-qty {
+    width: 7.5rem;
+    border: 1px solid;
+    border-color: #cfcfcf;
+    display: flex;
+    gap: 1.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cart-qty span,
+.cart-qty p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.offcanvas-cart-xtra-buy{
+    background-color: #ECECEC;
+}
+
+.offcanvas-cart-xtra-buy h1{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.xtra-buy-price{
+    font-size: 15px;
+}
+
+.xtra-buy-price span{
+    font-size: 14px;
+    color: #716e6e;
+    text-decoration: line-through;
+}
+
+.xtra-buy-color select,
+.xtra-buy-size select{
+    width: 5rem;
+    padding: .1rem .2rem;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: .3rem;
+    border: 1px solid #cfcfcf;
+}
+
+.xtra-buy-btn button{
+    margin-top: .5rem;
+    width: 100%;
+    border: none;
+    background-color:#F9CA4F;
+    border-radius: .3rem;
+    padding: .4rem 0rem;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.redeem-input input{
+    width: 15rem;
+    padding: .4rem 1rem;
+}
+
+.redeem-input input[type=text]{
+    font-size: 14px;
+}
+
+.redeem-btn button{
+    border: 1px solid #cfcfcf;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.rewardtracker p{
+    font-size: 14px;
+    color: #ab0b0b;
+}
+
+.rewardtracker span{
+    font-size: 20px;
+    color: #ab0b0b;
+}
+
+.subtotal p,
+.shipping p,
+.total p,
+.stock-text p{
+    font-size: 14px;
+}
+
+.subtotal p span{
+    font-size: 13px;
+    color: #B4B4B4;
+    text-decoration: line-through;
+}
+
+.shipping-free{
+    color: #008b10;
+    font-weight: bold;
+}
+
+.total p{
+    font-weight: bold;
+}
+
+.stock-text p{
+    color: #409b07;
+}
+
+.checkout-btn button{
+    width: 100%;
+    border: none;
+    background-color:#F9CA4F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .9rem 0;
+    font-size: 12px;
+    gap: .2rem;
+    font-weight: bold;
+    align-items: center;
+    border-radius: .3rem;
+}
+
+.checkout-btn button span{
+    font-size: 20px;
 }
 
 .navbar-toggler {
