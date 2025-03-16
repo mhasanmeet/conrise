@@ -72,12 +72,28 @@ body{
 .offcanvas-cart{
     height: 100%;
     overflow: auto;
+    display: flex;
+    flex-direction: column;
 }
 
-.sticky-top,
+.sticky-top{
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* Ensures it stays above other content */
+    background: white;
+}
+
+.scrollable-section {
+    flex-grow: 1;
+    overflow-y: auto;
+    background: #f8f9fa; /* Light background */
+}
+
 .sticky-bottom{
-    background-color: white;
-    z-index: 1;
+    position: sticky;
+    bottom: 0;
+    z-index: 1020;
+    background: white;
 }
 
 .offcanvas-cart .title-header h2{
